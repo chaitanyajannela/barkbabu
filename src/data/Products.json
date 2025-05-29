@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Biryani Bix",
+    "price": 8.99,
+    "image": "/assets/products/prod (1).jpg",
+    "description": "Smells like Hyderabadi biryani? Your dog will be like 'amma biryani' in every bite!",
+    "category": "Food"
+  },
+  {
+    "id": 2,
+    "name": "Thali Toys",
+    "price": 14.99,
+    "image": "/assets/products/prod (2).jpg",
+    "description": "Idli, dosa, vada in toy form – full South Indian thali for your pup’s playtime!",
+    "category": "Toys"
+  },
+  {
+    "id": 3,
+    "name": "Chintu Jerky",
+    "price": 11.49,
+    "image": "/assets/products/prod (3).jpg",
+    "description": "Spicy Andhra-style chicken? One sniff and your dog will start dancing!",
+    "category": "Food"
+  },
+  {
+    "id": 4,
+    "name": "Guddi Ball",
+    "price": 5.99,
+    "image": "/assets/products/prod (4).jpg",
+    "description": "Throw the ball once, and your dog will go 'mass entry' every single time!",
+    "category": "Toys"
+  },
+  {
+    "id": 5,
+    "name": "Coco Balm",
+    "price": 6.49,
+    "image": "/assets/products/prod (5).jpg",
+    "description": "One rub and your dog will feel like it just came from a Kerala spa trip!",
+    "category": "Care"
+  },
+  {
+    "id": 6,
+    "name": "Babu Collar",
+    "price": 9.99,
+    "image": "/assets/products/prod (6).jpg",
+    "description": "Bells go jing-jing when Babu walks – stylish like Tollywood hero!",
+    "category": "Accessories"
+  },
+  {
+    "id": 7,
+    "name": "Raju Rice",
+    "price": 7.25,
+    "image": "/assets/products/prod (7).jpg",
+    "description": "Crispy bites with rice power – healthy treat even grandma approves!",
+    "category": "Food"
+  },
+  {
+    "id": 8,
+    "name": "Shampoo Gali",
+    "price": 12.50,
+    "image": "/assets/products/prod (8).jpg",
+    "description": "Bath time turns into garden-party vibes, your dog comes out filmy-fresh!",
+    "category": "Care"
+  },
+  {
+    "id": 9,
+    "name": "Desi Daanas",
+    "price": 10.99,
+    "image": "/assets/products/prod (9).jpg",
+    "description": "Bandana so desi, people will say ‘Ee dog ni casting cheyyandi!’",
+    "category": "Accessories"
+  },
+  {
+    "id": 10,
+    "name": "Imli Chews",
+    "price": 9.99,
+    "image": "/assets/products/prod (10).jpg",
+    "description": "Tamarind twist with a mission – dental cleaning with full masala kick!",
+    "category": "Food"
+  },
+  {
+    "id": 11,
+    "name": "Ragulu Toy",
+    "price": 6.99,
+    "image": "/assets/products/prod (11).jpg",
+    "description": "Rough and tough rope toy – pull it, drag it, it won’t say ‘ayya baba’!",
+    "category": "Toys"
+  },
+  {
+    "id": 12,
+    "name": "Biscuit Bits",
+    "price": 4.49,
+    "image": "/assets/products/prod (12).jpg",
+    "description": "Tiny chai-time nibbles for pups – one bite, and tail goes full remix!",
+    "category": "Food"
+  },
+  {
+    "id": 13,
+    "name": "Reddy Coat",
+    "price": 18.00,
+    "image": "/assets/products/prod (13).jpg",
+    "description": "Rain? No tension! Doggo walks like a boss in this Reddy-style raincoat!",
+    "category": "Accessories"
+  },
+  {
+    "id": 14,
+    "name": "Tiff Treats",
+    "price": 13.49,
+    "image": "/assets/products/prod (14).jpg",
+    "description": "Mini tiffin box with yummy dog snacks – full meal feel in small bites!",
+    "category": "Food"
+  },
+  {
+    "id": 15,
+    "name": "Karive Stick",
+    "price": 7.99,
+    "image": "/assets/products/prod (15).jpg",
+    "description": "Curry leaf twist in every chew – healthy snack with homely touch!",
+    "category": "Food"
+  },
+  {
+    "id": 16,
+    "name": "Barku Towel",
+    "price": 9.89,
+    "image": "/assets/products/prod (16).jpg",
+    "description": "Drying time = cuddles time. So soft, even humans feel jealous!",
+    "category": "Care"
+  }
+]

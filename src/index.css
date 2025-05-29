@@ -1,6 +1,29 @@
 @import "tailwindcss";
+
 .special-gothic-expanded-one-regular {
   font-family: "Special Gothic Expanded One", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.paw-decoration {
+  background-image: url('/src/assets/paw.png');
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 40px 40px;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
 }
