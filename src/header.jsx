@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { CiSearch } from "react-icons/ci";
 import { TbDog } from "react-icons/tb";
 import { PiShoppingCartSimpleFill } from "react-icons/pi";
@@ -10,6 +10,7 @@ function Header({ searchQuery, setSearchQuery, cart, toggleCartView }) {
   const [suggestions, setSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
   const inputRef = useRef(null);
 
   useEffect(() => {
@@ -28,11 +29,17 @@ function Header({ searchQuery, setSearchQuery, cart, toggleCartView }) {
   const handleSuggestionClick = (product) => {
     setSearchQuery(product.name);
     setShowSuggestions(false);
-    // Removed navigation to product detail page on suggestion click
+    navigate(`/product/${product.id}`);
   };
 
   const handleInputChange = (e) => {
-    setSearchQuery(e.target.value);
+    const value = e.target.value;
+    setSearchQuery(value);
+    if (location.pathname === '/') {
+      navigate('/');
+    } else if (location.pathname === '/products') {
+      navigate('/products');
+    }
   };
 
   const handleBlur = () => {

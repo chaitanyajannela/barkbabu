@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import products from '../data/Products.json';
 import SuggestionCards from './SuggestionCards';
+import PawDecorations from './PawDecorations';
 
 export default function ProductDetail({ addToCart }) {
   const { id } = useParams();
@@ -18,8 +19,9 @@ export default function ProductDetail({ addToCart }) {
     .slice(0, 3);
 
   return (
-    <>
-      <section className="p-8 max-w-screen-md mx-auto">
+    <main className="relative min-h-screen">
+      <PawDecorations />
+      <section className="p-8 max-w-screen-md mx-auto" style={{ position: 'relative', zIndex: 1 }}>
         <div className="flex flex-col md:flex-row gap-16 relative">
           <div className="relative">
             <img
@@ -43,6 +45,6 @@ export default function ProductDetail({ addToCart }) {
         </div>
       </section>
       <SuggestionCards products={suggestions} />
-    </>
+    </main>
   );
 }
